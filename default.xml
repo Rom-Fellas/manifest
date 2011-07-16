@@ -133,7 +133,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="external_yaffs2" remote="origin" revision="master"/>
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="frameworks_base" remote="origin" revision="newomgb"/>
+  <project path="frameworks/base" name="frameworks_base" remote="github" revision="mecha"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -175,7 +175,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="github" revision="mecha"/>
-  <project path="packages/apps/Stk" name="packages_apps_Stk.git" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk.git" remote="origin" revision="mecha"/>
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/apps/Wallpapers" name="packages_apps_Wallpapers" remote="origin" revision="master"/>
@@ -200,7 +200,7 @@
   <project path="system/core" name="system_core" remote="origin" revision="mecha"/>
   <project path="system/extras" name="system_extras" remote="origin" revision="master"/>
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="system_netd" remote="origin" revision="master"/>
+  <project path="system/netd" name="system_netd" remote="origin" revision="mecha"/>
   <project path="system/vold" name="system_vold" remote="origin" revision="master"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="origin" revision="master"/>
   <project path="vendor/htc" name="vendor_htc" remote="github" revision="master"/>
