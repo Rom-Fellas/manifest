@@ -30,16 +30,13 @@
   <project path="dalvik" name="dalvik" remote="origin" revision="master"/>
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="device_htc_common" remote="origin" revision="master"/>
+  <project path="device/htc/common" name="device_htc_common" remote="github" revision="master"/>
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="origin" revision="gingerbread"/>
-  <project path="device/htc/inc" name="device_htc_inc" remote="origin" revision="master"/>
-  <project path="device/htc/vivow" name="device_htc_vivow" remote="origin" revision="master"/>
-  <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
-  <project path="device/htc/supersonic" name="device_htc_supersonic" remote="origin" revision="master"/>
-  <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
-  <project path="device/motorola/sholes" name="device_motorola_sholes" remote="origin" revision="master"/>
-  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="origin" revision="gingerbread"/>
-  <project path="device/samsung/fascinatemtd" name="device_samsung_fascinatemtd" remote="origin" revision="master"/>
+  <project path="device/htc/inc" name="device_htc_inc" remote="github" revision="master"/>
+  <project path="device/htc/vivow" name="device_htc_vivow" remote="github" revision="gingerbread"/>
+  <project path="device/htc/mecha" name="device_htc_mecha" remote="github" revision="master"/>
+  <project path="device/htc/supersonic" name="device_htc_supersonic" remote="github" revision="master"/>
+  <project path="device/htc/desirec" name="device_htc_desirec" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -55,6 +52,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="external_clearsilver" remote="origin" revision="master"/>
+  <project path="external/connectivity" remote="origin" revision="origin" revision="master"/>
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -135,7 +133,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="external_yaffs2" remote="origin" revision="master"/>
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="frameworks_base" remote="github" revision="newomgb"/>
+  <project path="frameworks/base" name="frameworks_base" remote="origin" revision="newomgb"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -152,6 +150,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Addons" name="packages_apps_Addons" remote="origin" revision="master"/>
+  <project path="packages_apps_AicBootFix" remote="origin" revision="gingerbread"/>
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="origin" revision="master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -166,17 +165,17 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="packages_apps_Gallery3D" remote="origin" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2"/>
+  <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="github" revision="master"/>
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="origin" revision="mecha"/>
   <project path="packages/apps/Protips" name="packages_apps_Protips" remote="github" revision="master"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="github" revision="master"/>
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="github" revision="mecha"/>
+  <project path="packages/apps/Stk" name="packages_apps_Stk.git" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/apps/Wallpapers" name="packages_apps_Wallpapers" remote="origin" revision="master"/>
@@ -189,7 +188,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="origin" revision="master"/>
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remtoe="origin" revision="mecha" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -198,15 +197,13 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="system_core" remote="origin" revision="master"/>
+  <project path="system/core" name="system_core" remote="origin" revision="mecha"/>
   <project path="system/extras" name="system_extras" remote="origin" revision="master"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="system_netd" remote="origin" revision="master"/>
   <project path="system/vold" name="system_vold" remote="origin" revision="master"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="origin" revision="master"/>
-  <project path="vendor/htc" name="vendor_htc" remote="origin" revision="master"/>
-  <project path="vendor/motorola" name="vendor_motorola" remote="origin" revision="master"/>
-  <project path="vendor/samsung" name="vendor_samsung" remote="origin" revision="gingerbread"/>
+  <project path="vendor/htc" name="vendor_htc" remote="github" revision="master"/>
   <project path="vendor/omgb" name="vendor_omgb" remote="github" revision="master"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="gingerbread"/>
