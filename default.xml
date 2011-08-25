@@ -36,7 +36,7 @@
   <project path="device/htc/common" name="device_htc_common" remote="origin" revision="master"/>
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="origin" revision="gingerbread"/>
   <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
-  <project path="device/motorola/shadow" name="device_motorola_shadow" remote="rf" revision="master"/>
+  <project path="device/motorola/shadow" name="device_motorola_shadow" remote="rf" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
